@@ -2,4 +2,62 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  max-width: 1260px;
+  margin: auto;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  src: url("Ubuntu-Bold.eot");
+  src: url("Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), url("Ubuntu-Bold.woff") format("woff"), url("Ubuntu-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("Ubuntu-Medium.eot");
+  src: url("Ubuntu-Medium.eot?#iefix") format("embedded-opentype"), url("Ubuntu-Medium.woff") format("woff"), url("Ubuntu-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Regular';
+  src: url("Ubuntu-Regular.eot");
+  src: url("Ubuntu-Regular.eot?#iefix") format("embedded-opentype"), url("Ubuntu-Regular.woff") format("woff"), url("Ubuntu-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../fonts/Ubuntu-Light.eot");
+  src: url("../fonts/Ubuntu-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Light.woff") format("woff"), url("../fonts/Ubuntu-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Light Italic';
+  src: url("../fonts/Ubuntu-LightItalic.eot");
+  src: url("../fonts/Ubuntu-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-LightItalic.woff") format("woff"), url("../fonts/Ubuntu-LightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Ubuntu Regular', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
