@@ -1,4 +1,26 @@
 .navbar
+  background-color: white
   &-wrap
     display: flex
     justify-content: space-between
+    align-items: center
+    min-height: 90px
+
+.logo
+  &__logo-image
+    display: block
+    width: 201px
+    height: 31px
+    background: url(../img/logo.png) no-repeat top center
+
+.menu 
+  min-width: 470px
+  &__nav 
+    width: 100%
+    display: flex
+    justify-content: space-between
+  &__link
+    text-decoration: none
+    text-transform: uppercase
+    font-size: 16px
+    color: $grey-text
