@@ -10,24 +10,24 @@
 
 @font-face {
   font-family: 'Ubuntu Bold';
-  src: url("Ubuntu-Bold.eot");
-  src: url("Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), url("Ubuntu-Bold.woff") format("woff"), url("Ubuntu-Bold.ttf") format("truetype");
+  src: url("../fonts/Ubuntu-Bold.eot");
+  src: url("../fonts/Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Ubuntu Medium';
-  src: url("Ubuntu-Medium.eot");
-  src: url("Ubuntu-Medium.eot?#iefix") format("embedded-opentype"), url("Ubuntu-Medium.woff") format("woff"), url("Ubuntu-Medium.ttf") format("truetype");
+  src: url("../fonts/Ubuntu-Medium.eot");
+  src: url("../fonts/Ubuntu-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Medium.woff") format("woff"), url("../fonts/Ubuntu-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Ubuntu Regular';
-  src: url("Ubuntu-Regular.eot");
-  src: url("Ubuntu-Regular.eot?#iefix") format("embedded-opentype"), url("Ubuntu-Regular.woff") format("woff"), url("Ubuntu-Regular.ttf") format("truetype");
+  src: url("../fonts/Ubuntu-Regular.eot");
+  src: url("../fonts/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Regular.woff") format("woff"), url("../fonts/Ubuntu-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -96,5 +96,37 @@
 body {
   font-family: 'Ubuntu Regular', sans-serif;
   color: #2d394c;
+}
+
+.hero {
+  background: #fff url("../img/background-main.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 240px;
+  padding-bottom: 250px;
+  color: #ffffff;
+}
+
+.hero__title {
+  width: 482px;
+  font-size: 52px;
+  font-family: 'Ubuntu Bold', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.hero__slogan {
+  font-size: 24px;
+  font-family: 'Ubuntu Regular', sans-serif;
+  margin-bottom: 60px;
+}
+
+.hero__subtitle {
+  font-family: 'Ubuntu Medium', sans-serif;
+}
+
+.hero__subtitle-excerpt {
+  padding: 9px 9px;
+  background-color: #ffce54;
+  border-radius: 6px;
 }
 /*# sourceMappingURL=style.css.map */
