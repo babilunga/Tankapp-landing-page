@@ -90,43 +90,110 @@
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
-  color: #2d394c;
+  color: #2b384b91;
 }
 
 body {
   font-family: 'Ubuntu Regular', sans-serif;
-  color: #2d394c;
+  color: #2b384b91;
+}
+
+.bg-secondary {
+  background-color: #f8f8f8;
 }
 
 .hero {
-  background: #fff url("../img/background-main.jpg") no-repeat center;
+  background: #fff url("../img/background-main.jpg") no-repeat center top;
   background-size: cover;
   padding-top: 240px;
-  padding-bottom: 250px;
+  padding-bottom: 260px;
   color: #ffffff;
 }
 
 .hero__title {
-  width: 482px;
+  width: 485px;
   font-size: 52px;
   font-family: 'Ubuntu Bold', sans-serif;
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 1.7;
+  margin-bottom: 30px;
 }
 
 .hero__slogan {
   font-size: 24px;
   font-family: 'Ubuntu Regular', sans-serif;
-  margin-bottom: 60px;
+  margin-bottom: 68px;
 }
 
 .hero__subtitle {
+  display: block;
   font-family: 'Ubuntu Medium', sans-serif;
+  margin-bottom: 37px;
+  font-size: 16px;
 }
 
 .hero__subtitle-excerpt {
+  text-transform: uppercase;
   padding: 9px 9px;
   background-color: #ffce54;
   border-radius: 6px;
+}
+
+.form {
+  width: 573px;
+}
+
+.form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 37px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__input {
+  height: 54px;
+  width: 423px;
+  padding-left: 30px;
+  border: 1px solid #71b3e034;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #2b384b91;
+  font-family: 'Ubuntu Light', sans-serif;
+}
+
+.form__button {
+  padding: 21px 25px;
+  border-radius: 7px;
+  border: none;
+  font-family: 'Ubuntu Regular', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #77c344;
+}
+
+::-webkit-input-placeholder {
+  color: #323d5254;
+}
+
+.clients {
+  min-height: 160px;
+  padding-top: 54px;
+  table-layout: 47px;
+}
+
+.clients__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,22 +1,56 @@
 .hero 
-  background: #fff url('../img/background-main.jpg') no-repeat center
+  background: #fff url('../img/background-main.jpg') no-repeat center top
   background-size: cover
   padding-top: 240px
-  padding-bottom: 250px
+  padding-bottom: 260px
   color: $white-text
   &__title
-    width: 482px
+    width: 485px
     font-size: 52px
     +bold
     text-transform: uppercase
-    line-height: 1.5
+    line-height: 1.7
+    margin-bottom: 30px
   &__slogan
     font-size: 24px
     +regular
-    margin-bottom: 60px
+    margin-bottom: 68px
   &__subtitle
+    display: block
     +medium
+    margin-bottom: 37px
+    font-size: 16px
     &-excerpt
+      text-transform: uppercase
       padding: 9px 9px
       background-color: #ffce54
       border-radius: 6px
+
+.form
+  width: 573px
+  &__row
+    display: flex
+    margin-top: 37px
+    display: flex
+    justify-content: space-between
+  &__input
+    height: 54px
+    width: 423px
+    padding-left: 30px
+    border: 1px solid #71b3e034
+    border-radius: 7px
+    font-size: 18px
+    color: $grey-text
+    +light
+  &__button
+    padding: 21px 25px
+    border-radius: 7px
+    border: none
+    +regular
+    text-transform: uppercase
+    color: #ffffff
+    background-color: $button-green
+
+
+::-webkit-input-placeholder
+    color: #323d5254
