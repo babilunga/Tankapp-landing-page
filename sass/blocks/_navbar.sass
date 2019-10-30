@@ -20,7 +20,22 @@
     display: flex
     justify-content: space-between
   &__link
+    position: relative
     text-decoration: none
     text-transform: uppercase
     font-size: 16px
     color: $grey-text
+    &:after
+      content: attr(data-title)
+      font-size: 20px
+      box-sizing: border-box
+      display: block
+      position: absolute
+      top: 30px
+      left: 70px
+      margin-left: -8px
+      transition: .25s ease-in-out
+      opacity: 0
+    &:hover:after
+      opacity: 1
+      top: 0px

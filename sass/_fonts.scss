@@ -6,7 +6,7 @@
     url('../fonts/Ubuntu-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
 @font-face {
   font-family: 'Ubuntu Medium';
@@ -16,37 +16,37 @@
     url('../fonts/Ubuntu-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
 @font-face {
   font-family: 'Ubuntu Regular';
   src: url('../fonts/Ubuntu-Regular.eot');
   src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Ubuntu-Regular.woff') format('woff'),
-  url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+    url('../fonts/Ubuntu-Regular.woff') format('woff'),
+    url('../fonts/Ubuntu-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
 @font-face {
   font-family: 'Ubuntu Light';
   src: url('../fonts/Ubuntu-Light.eot');
   src: url('../fonts/Ubuntu-Light.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Ubuntu-Light.woff') format('woff'),
-  url('../fonts/Ubuntu-Light.ttf') format('truetype');
+    url('../fonts/Ubuntu-Light.woff') format('woff'),
+    url('../fonts/Ubuntu-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
 @font-face {
   font-family: 'Ubuntu Light Italic';
   src: url('../fonts/Ubuntu-LightItalic.eot');
   src: url('../fonts/Ubuntu-LightItalic.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Ubuntu-LightItalic.woff') format('woff'),
-  url('../fonts/Ubuntu-LightItalic.ttf') format('truetype');
+    url('../fonts/Ubuntu-LightItalic.woff') format('woff'),
+    url('../fonts/Ubuntu-LightItalic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-    }
+}
 
 @mixin light {
   font-family: 'Ubuntu Light', sans-serif;
@@ -54,16 +54,16 @@
 
 @mixin light-italic {
   font-family: 'Ubuntu Light Italic', sans-serif;
-  }
+}
 
 @mixin regular {
   font-family: 'Ubuntu Regular', sans-serif;
-  }
+}
 
 @mixin medium {
   font-family: 'Ubuntu Medium', sans-serif;
-  }
+}
 
 @mixin bold {
   font-family: 'Ubuntu Bold', sans-serif;
-  }
+}
